@@ -1,7 +1,7 @@
 
 const products =[
     {
-        _id: "1",
+        
         name: "Airpods",
         image: "/images/airpods.jpg",
         description: "Wireless earphones by Apple rgwgrgrgg rgrgregrgrgr grgregregerg gtegegnierhghrbg rgrgrigirngirhgrg rguirbgrgbrugbrebgrgre",
@@ -13,7 +13,7 @@ const products =[
         numReviews: 120
     },
     {
-        _id: "2",
+
         name: "Gimble",
         image: "/images/gimble.jpg",
         description: "3-axis stabilizer for smartphones and cameras ihbuyfurbfiubfb fwfyubwufuegfyef efyewgfygweyfgewyf efuyefyewgf8ewbf",
@@ -25,7 +25,7 @@ const products =[
         numReviews: 80
     },
     {
-        _id: "3",
+
         name: "iPhone 15 Pro",
         image: "/images/Iphone1pro.jpg",
         description: "Latest flagship smartphone by Apple hbfgefbefbeu ebfuyevfyveyvu yefyebf ybyfrwyf begrewifb uege8rewu8gfeyf ewufy8ewg w",
@@ -37,7 +37,7 @@ const products =[
         numReviews: 200
     },
     {
-        _id: "4",
+    
         name: "iWatch",
         image: "/images/iwatch9.jpg",
         description: "Smartwatch by Apple efbhew biubrf rfbweuirfbewuifbeubf ew fyue fewbfvfyiwvfiewbfiyebf8ewb ewhifewy uieewuf ewifewif uewbef",
@@ -49,7 +49,6 @@ const products =[
         numReviews: 150
     },
     {
-        _id: "5",
         name: "MacBook Air 1",
         image: "/images/mac-book1.jpg",
         description: "Ultra-slim laptop by Apple hjfb hfbrifbrfiwfhweufn eiufhewui weuifhewui nuifheuifbgfewfwrf wufhwuf uifgeui fuiwhfewu buifewuifb",
