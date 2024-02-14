@@ -8,11 +8,14 @@ import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import CartScreen from './screens/CartScreen';
 import LoginScreen from './screens/LoginScreen';
-import {toast} from 'react-toastify'
+import RegisterScreen from './screens/RegisterScreen';
+import PrivateRoutes from './components/PrivateRoutes';
+import PaymentScreen from './screens/PaymentScreen';
 
 
 import { Provider } from 'react-redux';
 import store from './store';
+import ShippingScreen from './screens/ShippingScreen';
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<App/>}>
@@ -20,6 +23,13 @@ const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/product/:id' element={<ProductScreen/>}/>
   <Route path='/cart' element={<CartScreen/>}/>
   <Route path='/login' element={<LoginScreen/>}/>
+  <Route path='/register' element={<RegisterScreen/>}/>
+  <Route path='' element={<PrivateRoutes/>}>
+    <Route path='/shipping' element={<ShippingScreen/>}/>
+    <Route path='/payment' element={<PaymentScreen/>}/>
+
+  </Route>
+
 
   
 
